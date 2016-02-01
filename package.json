@@ -1,27 +1,26 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "./node_modules/.bin/electron ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atom/electron-quick-start.git"
+    "url": "git+https://github.com/ArmandBiteau/electron.git"
   },
   "keywords": [
     "Electron",
     "quick",
-    "start",
-    "tutorial"
+    "start"
   ],
-  "author": "GitHub",
+  "author": "Armand Biteau",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/atom/electron-quick-start/issues"
+    "url": "https://github.com/ArmandBiteau/electron/issues"
   },
-  "homepage": "https://github.com/atom/electron-quick-start#readme",
+  "homepage": "https://github.com/ArmandBiteau/electron#readme",
   "devDependencies": {
     "electron-prebuilt": "^0.36.0"
   }
